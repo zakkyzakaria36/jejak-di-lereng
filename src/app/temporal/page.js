@@ -166,7 +166,7 @@ export default function Temporal() {
           </p>
           <ul className="list-disc ml-5 space-y-1 text-sm mb-3">
             <li>Monsun Asia barat membawa massa udara lembab dari Samudra Hindia</li>
-            <li>Curah hujan >200mm/bulan → Water infiltration into soil</li>
+            <li>Curah hujan {'>'}200mm/bulan → Water infiltration into soil</li>
             <li>Soil matric suction turun → Shear strength menurun</li>
             <li>Threshold kritis tercapai → Slope failure</li>
           </ul>
@@ -185,7 +185,7 @@ export default function Temporal() {
             <li>🛡️ <strong>Structural mitigation:</strong> 45 tembok penahan lereng (survival rate 92%)</li>
           </ul>
           <p className="text-sm">
-            <strong>Hasil:</strong> Dengan confidence interval 95%, peningkatan ini tidak terjadi by chance (Chi-square p < 0.001 implied)
+            <strong>Hasil:</strong> Dengan confidence interval 95%, peningkatan ini tidak terjadi by chance (Chi-square p {'<'} 0.001 implied)
           </p>
         </div>
       </div>

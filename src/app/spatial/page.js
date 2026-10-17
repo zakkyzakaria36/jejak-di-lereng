@@ -127,7 +127,7 @@ export default function Spatial() {
             <strong>Kausal Factors:</strong>
           </p>
           <ul className="list-disc ml-5 mt-2 space-y-1 text-sm">
-            <li>Topografi: Pegunungan Menoreh dengan lereng >40°</li>
+            <li>Topografi: Pegunungan Menoreh dengan lereng {'>'}40°</li>
             <li>Geologi: Tanah lempung residual dengan kohesi rendah</li>
             <li>Land Use: Deforestasi 120 ha/tahun (2015-2020) → hilangnya root reinforcement</li>
             <li>Curah Hujan: Rata-rata 300mm/bulan saat musim hujan (BMKG data)</li>
