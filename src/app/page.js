@@ -19,9 +19,23 @@ export default function Home() {
           <p className="text-xs text-gray-500 mt-2">112 kejadian | 10 tahun data</p>
         </div>
 
-        {/* Poster Image */}
-        <div className="mb-6 rounded-lg overflow-hidden border border-gray-200">
-          <img src="/images/6.png" alt="Poster" className="w-full h-auto" />
+        {/* Poster Images */}
+        <div className="mb-8 space-y-4">
+          <div className="rounded-lg overflow-hidden border border-gray-200 bg-gray-900">
+            <img src="/images/6.png" alt="Poster Utama" className="w-full h-auto" />
+          </div>
+          
+          <div className="grid grid-cols-3 gap-2">
+            <div className="rounded-lg overflow-hidden border border-gray-200 bg-gray-900">
+              <img src="/images/1.png" alt="Detail 1" className="w-full h-auto" />
+            </div>
+            <div className="rounded-lg overflow-hidden border border-gray-200 bg-gray-900">
+              <img src="/images/2.png" alt="Detail 2" className="w-full h-auto" />
+            </div>
+            <div className="rounded-lg overflow-hidden border border-gray-200 bg-gray-900">
+              <img src="/images/3.png" alt="Logo" className="w-full h-auto" />
+            </div>
+          </div>
         </div>
 
         {/* Tabs */}
