@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+}
+
+.container-main {
+  @apply max-w-7xl mx-auto px-4 py-8;
+}
+
+.section-title {
+  @apply text-3xl font-bold text-gray-800 mb-6 border-b-4 border-orange-500 pb-2;
+}
+
+.card {
+  @apply bg-white rounded-lg shadow-lg p-6 transition-all hover:shadow-xl;
+}
+
+.chart-container {
+  @apply bg-white rounded-lg shadow-md p-4 mb-6;
+}
